@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Registration Page</title>
+</head>
+<body>
+<h1>Registration</h1>
+<form>
+	<div>
+	<label for="firstname">First Name:</label>
+	<input id="firstname" type="text" placeholder="First name" required>
+	<label for="lastname">Last Name:</label>
+	<input id="lastname" type="text" placeholder="Last name" required>
+	</div>
+	<div>
+	<label for="male" name="gender">Male</label>
+	<input id="male" name="gender" type="radio">
+	<label for="female" name="gender">Female</label>
+	<input id="male" name="gender" type="radio">
+	<label for="other" name="gender">Other</label>
+	<input id="other" name="gender" type="radio">
+	</div>
+	<div>
+	<label for="Email">Email:</label>
+	<input id="Email" type="Email" placeholder="Email" required>
+	<label for="password">Password</label>
+	<input id="password" type="password" placeholder="Password" maxlength="10" minlength="5" required>
+	</div>
+	<div>
+	<label>Bithday:</label>
+		<select>
+			<option value="Jan">Jan</option>
+			<option value="Feb">Feb</option>
+			<option value="Mar">Mar</option>
+		</select>
+		<select>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+		</select>
+		<select>
+			<option value="1000">1000</option>
+			<option value="2000">2000</option>
+			<option value="3000">3000</option>
+		</select>
+	</div>
+	<div>
+	<label>I agree to the terms and conditions</label><input type="checkbox" required>
+	<input type="submit">
+	</div>
+</form>
+
+</body>
+</html>
